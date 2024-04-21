@@ -83,5 +83,5 @@ async def on_message(message):
     await bot.process_commands(message)
 
 
-# 봇 실행
-bot.run('MTIzMTQ3NTA2NTYyNzg2OTIyNA.GMQpvF.Qgj_GUyM79A29693X7drwg_9IQGVvTc2Cxailo')
+access_token = os.environ["BOT_TOKEN"]
+bot.run('access_token')
