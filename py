@@ -4,6 +4,7 @@ from discord.ext.commands import Bot
 import asyncio
 from collections import defaultdict
 from profanity_check import predict, predict_prob
+import os
 
 
 # 봇의 명령어 접두사와 인텐트 설정
@@ -83,4 +84,4 @@ async def on_message(message):
 
 
 # 봇 실행
-bot.run('')
+bot.run('MTIzMTQ3NTA2NTYyNzg2OTIyNA.GMQpvF.Qgj_GUyM79A29693X7drwg_9IQGVvTc2Cxailo')
